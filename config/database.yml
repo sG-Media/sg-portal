@@ -1,0 +1,31 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: sg_development
+  pool: 5
+  username: root
+  password: 
+  host: localhost
+
+# Nicht angelegt
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: sg_test
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+# Nicht angelegt
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: sg_production
+  pool: 5
+  username: root
+  password:
+  host: localhost

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= @title %></title>
+	<%= stylesheet_link_tag "site" %>
+</head>
+<body>
+	<div id="all">
+		<div id="nav">	
+			<div id="top_nav">
+				<span style="float: right">
+					<%= nav_link "Home", "home", "index" %> |
+					<%= nav_link "Lebenslauf", "lebenslauf", "index" %> |
+					<%= nav_link "Publikationen", "publikationen", "index" %> |
+					<%= nav_link "Kontakt", "kontakt", "index" %>
+				</span>
+			</div>
+		</div>			
+		<div id="header">
+			<div id="header_text">
+				<% if params[:controller] == "home" -%>
+					<headline>Herzlich Willkommen,</headline>
+					<br><br>
+					<normal>
+						diese Internetpräsenz bietet Lebenslauf, Publikationen und <br>
+						Kontaktmöglichkeiten.
+					</normal>
+				<% end -%>
+				<% if params[:controller] == "lebenslauf" -%>
+					Lebenslauf
+				<% end -%>
+				<% if params[:controller] == "publikationen" -%>
+					Publikation
+				<% end -%>
+				<% if params[:controller] == "kontakt" -%>
+					Kontakt
+				<% end -%>
+			</div>
+		</div>
+		<div id="main">
+			<div id="main_text">
+		  	<%= yield %>
+			</div>
+		</div>
+		<div id="footer_nav">
+			<div id="footer_nav_lebenslauf">
+				<%= nav_link "Lebenslauf", "lebenslauf", "index" %>
+			</div>
+			<div id="footer_nav_publikationen">
+				<%= nav_link "Publikationen", "publikationen", "index" %>
+			</div>
+			<div id="footer_nav_kontakt">
+				<%= nav_link "Kontakt", "kontakt", "index" %>
+			</div>			
+		</div>
+	</div>
+</body>
+</html>

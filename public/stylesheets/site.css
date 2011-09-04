@@ -1,0 +1,129 @@
+body {
+font-family: sans-serif;
+position: relative;
+position: relative;
+}
+#all {
+width: 55em;
+margin: auto;
+text-align: left;
+}
+
+
+
+
+
+#nav {
+background-image:url(../images/main/top_nav.png);
+background-color:orange;
+width:960px;height:255px;
+}
+#top_nav {
+color: black;
+font-size: 12pt;
+font-weight: bold;
+position: relative;
+top: 235px;
+right: 55px;
+}
+#top_nav a, #top_nav a:visited {
+color: #2570bc;
+text-decoration: none;
+}
+#top_nav a:hover {
+color: black;
+}
+
+
+
+
+
+#header {
+color: white;
+margin-bottom: 0;
+background-image:url(../images/main/header.png);
+background-color:orange;
+width:960px;height:353px;
+}
+#header_text {
+font-size: 24pt;
+position: relative;
+top: 20px;
+left: 55px;
+}
+#header_text headline {
+font-size: 14pt;
+font-weight: bold;
+font-weight: underline;
+}	
+#header_text normal {
+font-size: 12pt;
+
+}	
+
+
+
+
+
+#main {
+height: 100%;
+background: white;
+background-image:url(../images/main/main.png);
+background-color:orange;
+width:960px;height:600px;
+}
+#main_text {
+position: relative;
+top: 20px;
+left: 55px;
+}		
+
+
+
+
+
+#footer_nav {
+color: white;
+font-size: 12pt;
+font-weight: bold;
+background-image:url(../images/main/footer_nav.png);
+background-color:orange;
+width:960px;height:349px;
+}
+#footer_nav a, #footer_top_nav a:visited {
+color: white;
+}
+#footer_nav a:hover {
+color: black;
+}
+#footer_nav_lebenslauf {
+position: relative;	
+top: 190px;
+left: 142px;
+}
+#footer_nav_publikationen {
+position: relative;	
+top: 170px;
+left: 430Px;
+}
+#footer_nav_kontakt {
+position: relative;	
+top: 150px;
+left: 750px;
+}
+
+
+
+label {
+width: 14em;
+float: left;
+text-align: left;
+display: block;
+}
+
+label2 {
+width: 34em;
+float: left;
+text-align: left;
+display: block;
+}
